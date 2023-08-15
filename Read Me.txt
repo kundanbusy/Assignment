@@ -1,0 +1,13 @@
+The Project ITunesAPI is a Java based maven managed project.
+
+There are two main test types Functional & performance tests embedded in this project.
+
+The tests can be invoked from command line in multiple ways as shown below.
+	mvn test -Dtest=api.test.GoRightsFunctionalTests#test_001_get_search_single_param
+	mvn test -Dtest=api.test.PerfTests
+	mvn test -DsuiteXmlFile smoke_suite_testng.xml
+
+If we wish to avoid commits and do a quick tests from jenkins the framework supports to feed cmd line args to the tests. See sample below.
+	mvn test -Dtest=api.test.GoRightsFunctionalTests#test_001_get_search_single_param -Dcmd_var1=love
+
+Final reports can be found under the Reports folder under Project's root directory.
