@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [api.test.GoRightsFunctionalTests]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="api.test.GoRightsFunctionalTests">
+        <methods>
+          <include name="test_003_get_search_rspheaders_validation" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- api.test.GoRightsFunctionalTests -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [api.test.GoRightsFunctionalTests] -->

@@ -1,0 +1,9 @@
+{
+  "sample_post_payload": {
+    "testkey1": 1,
+    "testkey2": "Project",
+    "testkey3": [
+      100124
+    ]
+  }
+}

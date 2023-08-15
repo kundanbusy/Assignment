@@ -1,0 +1,2 @@
+term,country,entity
+michael jackson,US,music

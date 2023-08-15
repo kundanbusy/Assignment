@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Itunes Search API Perf Suite" verbose="1" >
+  <test name="Itunes Search API Performance Test" >
+    <classes>
+       <class name="api.test.PerfTests">
+            <methods>
+        		<include name="test_004_performance_test"/>
+      		</methods>
+      </class>
+    </classes>
+  </test>
+</suite>

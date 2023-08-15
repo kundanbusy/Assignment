@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-15T17:08:28 IST" name="api.test.GoRightsFunctionalTests" finished-at="2023-08-15T17:08:30 IST" duration-ms="1833">
+    <groups>
+    </groups>
+    <test started-at="2023-08-15T17:08:28 IST" name="Command line test" finished-at="2023-08-15T17:08:30 IST" duration-ms="1833">
+      <class name="api.test.GoRightsFunctionalTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.GoRightsFunctionalTests@5b38c1ec]" started-at="2023-08-15T17:08:28 IST" name="init" finished-at="2023-08-15T17:08:28 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="test_001_get_search_single_param(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:api.test.GoRightsFunctionalTests@5b38c1ec]" started-at="2023-08-15T17:08:28 IST" name="test_001_get_search_single_param" finished-at="2023-08-15T17:08:30 IST" duration-ms="1298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void api.test.GoRightsFunctionalTests.test_001_get_search_single_param(java.lang.reflect.Method,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5634a861]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_001_get_search_single_param -->
+      </class> <!-- api.test.GoRightsFunctionalTests -->
+    </test> <!-- Command line test -->
+  </suite> <!-- api.test.GoRightsFunctionalTests -->
+</testng-results>

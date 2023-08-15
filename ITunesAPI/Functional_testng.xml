@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Itunes Search API Functional Suite" verbose="1" >
+  <test name="Itunes Search API Functional Test" >
+    <classes>
+       <class name="api.test.GoRightsFunctionalTests"/>
+    </classes>
+  </test>
+</suite>
